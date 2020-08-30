@@ -2,8 +2,14 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 def squared_threes():
-    return value = []
+    return_value = []
     # YOUR CODE GOES HERE
+ 
+    divisible = list(range(0,100,3))
+    print(divisible)
+
+    squared_threes = [value ** 2 for value in range(0,100,3)]
+    print(squared_threes)
 
     # END SHOULDNT GO BEYOND HERE
     return return_value
