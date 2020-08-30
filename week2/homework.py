@@ -19,3 +19,5 @@ if __name__ == "__main__":
     # 36
     # 81
     # ..... etc
+    # %%awd
+    awaitd
