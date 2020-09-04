@@ -25,4 +25,4 @@ if __name__ == "__main__":
     assert get_points('red') == 15
     assert get_points('yellow') == 10
     assert get_points('green') == 5
-    assert get_points('green') == 3
+    assert get_points('blue') == 3
