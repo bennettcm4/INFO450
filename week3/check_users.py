@@ -17,9 +17,9 @@ def check_users(current_users, new_users):
             print(f"{new_user} is an available username.")
 
 if __name__ == "__main__":
-    current_users = ['chris','haritha', 'sally', 'darnell', 'superman']
-    new_users = ['george', 'ringo', 'superman', 'hannibal']
-    check_users(current_users, new_users)
+    current_us = ['chris','haritha', 'sally', 'darnell', 'superman']
+    new_us = ['george', 'ringo', 'superman', 'hannibal']
+    check_users(current_us, new_us)
 
 # Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. 
 # If a username has not been used, print a message saying that the username is available. 
