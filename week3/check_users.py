@@ -18,7 +18,7 @@ def check_users(current_users, new_users):
 
 if __name__ == "__main__":
     current_users = ['chris','haritha', 'sally', 'darnell', 'superman']
-    new_users = ['george', 'ringo', 'SUPERMAN', 'hannibal', 'Chris']
+    new_users = ['george', 'ringo', 'superman', 'hannibal']
     check_users(current_users, new_users)
 
 # Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. 
