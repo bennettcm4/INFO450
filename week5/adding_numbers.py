@@ -17,18 +17,4 @@ if __name__ == "__main__":
     print(f"Processing {fname}")
     print(add_them_all(fname))
     
-# filename takes a string
-# will return sum
-# You will open file, read through the file, make sure everything is an integer, add them all together, and return sum of that file
-# 6? different files
-
-
-#Totals each individual file
-
-#filenames = ['a.txt', 'b.txt', 'c.txt', 'd.txt', 'e.txt']
-#for filename in filenames:
-
-    #f = open(filename, "r")
-
-    #for line in f:
-        #sum = sum + int(line)
+# Needed to "cd" to week5 to test in the terminal
